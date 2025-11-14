@@ -1,5 +1,5 @@
 import './App.css';
-import { useState,useEffect} from 'react';
+import { useState} from 'react';
 
 function App() {
   let colors=['red','black','green']
@@ -12,7 +12,7 @@ function App() {
 
  function handleColor(data){
 colors.forEach((color)=>{
-  if(color==data)
+  if(color===data)
     setChangeColor(color);
 })
  }
