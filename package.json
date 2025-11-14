@@ -1,4 +1,5 @@
 {
+    "homepage": "https://asmil-asm.github.io/Task1",
   "name": "task-one",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://asmil-asm.github.io/Task1",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
